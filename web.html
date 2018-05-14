@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exploring Accessibility | DTC 475</title>
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <a id="skip-nav" href="#main">Skip to Main Content</a>
+    <aside id="hidden-features" class="visually-hidden">
+      <button id="large-text" class="buttons">
+        Enlarge Interface
+      </button>
+      <button id="small-text" class="buttons">
+        Minimize Interface
+      </button>
+    </aside>
+    <button id="show-features" class="buttons desktop-only">
+      &#9776; Toggle Accessibility Menu
+    </button>
+
+   <div id="web-grid">
+
+      <header>
+        <h1><a href="index.html">Exploring Accessibility</a></h1>
+        <h2>Web Design Best Practices </br> for Cognitive Disabilities</h2>
+        <nav>
+          <a id="home" href="index.html" style="color: white; background-color: #2d8276;">Home</a>
+          <a id="about" href="about.html">About</a>
+        </nav>
+      </header>
+
+    <section id="mainweb">
+    	<h1>Web Accessible Design
+    	</h1>
+    	<article id="web1">
+    	<h2>How to Make an Accessible Website? POUR
+    	</h2>
+      <p>
+        According to <a href="https://webaim.org/articles/pour/">WebAIM.org</a>, in explaining the <a href="https://www.w3.org/TR/WCAG20/">W3C Web Content Accessibility Guidelines, or WCAG 2.0</a> principles of accessibility, they define an accessible website as being Perceivable, Operable, Understandable, and Robust.
+      </p>
+      <p>
+        <a href="https://webaim.org/articles/pour/perceivable/">Perceivable</a> basically means that a website must be able to be seen, heard, or otherwise noticed through various means like screen readers, voice over, with noise indications like notification sounds, vibrations, and so on.
+      </p>
+    	<p>
+        <a href="https://webaim.org/articles/pour/operable/">Operable</a> means usable, in that websites must be accessible to people who need to use special keyboards, various pointing devices, voice control, and other assistive devices. Users should have control over how long they have to complete a task and errors should be easily avoided or reversed.
+      </p>
+      <p>
+        <a href="https://webaim.org/articles/pour/understandable/">Understandable</a> basically means that the language, use of representative images and icons, and functionality all have clear meaning to users of all varieties. Navigation of a site should be consistent and predictable. Many sites fail this part because their information is laid out or presented in confusing ways, or there are too many distrations from the main content like with advertising. This is the main issue for people with cognitive disabilities.
+      </p>
+      <p>
+        <a href="https://webaim.org/articles/pour/robust/">Robust</a> essentially means that a website is able to work with older systems or devices that don't use every feature of modern web browsers. Content should also be future proof. Pretty much everyone knows that JavaScript is going to be around a while. On the other hand, people should probably not be building their website with lots of Flash animations and the like.
+      </p>
+    	</article>
+      <article id="web2">
+        <img id="pouring" src="media/pouring.png" alt="pitcher of water pouring out" />
+      </article>
+    </section>
+
+
+    <footer>
+        Created by Washington State Vancouver DTC 475 students
+    </footer>
+
+    </div> <!-- this closes the grid -->
+  </body>
+</html>
